@@ -10,8 +10,6 @@ export default function Products ({ products }) {
     return cart.some(item => item.id === product.id)
   }
 
-  console.log(cart)
-
   return (
     <main className='products'>
       <ul>
@@ -26,7 +24,7 @@ export default function Products ({ products }) {
               </div>
               <div>
                 <button
-                  style={{ backgroundColor: isProductInCart ? '#910000' : 'inherit' }}
+                  style={{ backgroundColor: isProductInCart ? 'red' : 'blue' }}
                   onClick={() => isProductInCart ? removeFromCart(product) : addToCart(product)}
                 >
                   {
