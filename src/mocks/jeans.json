@@ -1,0 +1,119 @@
+{
+  "jeans": [
+    {
+      "id": 1,
+      "title": "511™ LEVI'S® SLIM FIT JEANS SHADED",
+      "price": 33800,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/441401-500-auto?v=1775817681&width=500&height=auto&aspect=true"
+    },
+    {
+      "id": 2,
+      "title": "510™ LEVI'S® SKINNY FIT WALLPHINE",
+      "price": 33800,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/660443-500-auto?v=1775817676&width=500&height=auto&aspect=true"
+    },
+    {
+      "id": 3,
+      "title": "511™ LEVI'S® SLIM FIT JEANS",
+      "price": 29600,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/659925-500-auto?v=1775822806&width=500&height=auto&aspect=true"
+    },
+    {
+      "id": 4,
+      "title": "510™ LEVI'S® SKINNY FIT",
+      "price": 29600,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/749441-500-auto?v=1775798798&width=500&height=auto&aspect=true"
+    },
+    {
+      "id": 5,
+      "title": "511™ LEVI'S® SLIM FIT JEANS INDIGO",
+      "price": 33800,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/721522-500-auto?v=1775798773&width=500&height=auto&aspect=true"
+    },
+    {
+      "id": 6,
+      "title": "505™ LEVI'S® REGULAR FIT JEANS MID",
+      "price": 24600,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/676328-500-auto?v=1775798777&width=500&height=auto&aspect=true"
+    },
+    {
+      "id": 7,
+      "title": "510™ LEVI'S® SKINNY FIT",
+      "price": 28100,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/660365-500-auto?v=1775784736&width=500&height=auto&aspect=true"
+    },
+    {
+      "id": 8,
+      "title": "511™ LEVI'S® SLIM FIT JEANS",
+      "price": 28100,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/663268-500-auto?v=1775822803&width=500&height=auto&aspect=true",
+      "discount": 22
+    },
+    {
+      "id": 9,
+      "title": "510™ LEVI'S® SKINNY FIT",
+      "price": 33800,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/660031-500-auto?v=1775784810&width=500&height=auto&aspect=true"
+    },
+    {
+      "id": 10,
+      "title": "510™ LEVI'S® SKINNY FIT MIDNIGHT",
+      "price": 35900,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/631334-500-auto?v=1775784780&width=500&height=auto&aspect=true"
+    },
+    {
+      "id": 11,
+      "title": "510™ LEVI'S® SKINNY FIT",
+      "price": 33800,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/631089-500-auto?v=1775784784&width=500&height=auto&aspect=true",
+      "discount": 17
+    },
+    {
+      "id": 12,
+      "title": "511™ LEVI'S® SLIM FIT JEANS",
+      "price": 33800,
+      "brand": "LEVI'S",
+      "image": "https://levisarg.vtexassets.com/arquivos/ids/443813-500-auto?v=1775784052&width=500&height=auto&aspect=true"
+    },
+    {
+      "id": 13,
+      "title": "JEAN BRYSON WRANGLER®",
+      "price": 34300,
+      "brand": "WRANGLER",
+      "image": "https://wranglerjeans.com.ar/wp-content/uploads/2023/06/JCH6372-600x720.jpg",
+      "discount": 24
+    },
+    {
+      "id": 14,
+      "title": "JEAN LARSTON WRANGLER®",
+      "price": 34300,
+      "brand": "WRANGLER",
+      "image": "https://wranglerjeans.com.ar/wp-content/uploads/2023/06/W5007400U-3-600x720.jpg"
+    },
+    {
+      "id": 15,
+      "title": "JEAN GREENSBORO 777 WRANGLER®",
+      "price": 34300,
+      "brand": "WRANGLER",
+      "image": "https://wranglerjeans.com.ar/wp-content/uploads/2023/03/JCH6139-600x720.jpg"
+    },
+    {
+      "id": 16,
+      "title": "JEAN NEW MONTANA WRANGLER®",
+      "price": 34300,
+      "brand": "WRANGLER",
+      "image": "https://wranglerjeans.com.ar/wp-content/uploads/2022/09/JCH2705-1-600x720.jpg"
+    }
+  ]
+}

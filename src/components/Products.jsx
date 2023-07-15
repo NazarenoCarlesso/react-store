@@ -2,8 +2,9 @@ import React from 'react'
 import { useCart } from '../hooks/useCart'
 import { AddToCartIcon, RemoveFromCartIcon } from './Icons'
 import './Products.css'
+import { applyDiscount } from '../utils/applyDiscount'
 
-export default function Products ({ products }) {
+export const Products = ({ products }) => {
   const { addToCart, cart, removeFromCart } = useCart()
 
   const checkProductInCart = product => {
@@ -18,20 +19,41 @@ export default function Products ({ products }) {
 
           return (
             <li key={product.id}>
-              <img src={product.images[0]} alt={product.title} />
+              <img src={product.image} alt={product.title} />
               <div>
-                <strong>{product.title}</strong> - ${product.price}
+                <h3><strong>{product.title}</strong></h3>
+                {
+                  product.discount
+                    ? (
+                      <h3>
+                        <strong className='price'>
+                          ${applyDiscount(product.price, product.discount).toLocaleString(undefined, { maximumFractionDigits: 0 })}
+                        </strong>
+                        <strong className='basePrice'>
+                          ${product.price.toLocaleString(undefined, { maximumFractionDigits: 0 })}
+                        </strong>
+                        <strong className='discount'>
+                          {product.discount}%
+                        </strong>
+                      </h3>)
+                    : (
+                      <h3>
+                        <strong className='price'>
+                          ${product.price.toLocaleString(undefined, { maximumFractionDigits: 0 })}
+                        </strong>
+                      </h3>)
+                }
               </div>
               <div>
                 <button
-                  style={{ backgroundColor: isProductInCart ? 'red' : 'blue' }}
+                  className='cartButton'
+                  style={{ backgroundColor: isProductInCart ? '#c93838' : '#bebebe' }}
                   onClick={() => isProductInCart ? removeFromCart(product) : addToCart(product)}
                 >
-                  {
-                    isProductInCart
-                      ? <RemoveFromCartIcon />
-                      : <AddToCartIcon />
-                  }
+                  {isProductInCart ? <RemoveFromCartIcon /> : <AddToCartIcon />}
+                  <strong>
+                    {isProductInCart ? 'Quitar del carro' : 'Añadir al carro'}
+                  </strong>
                 </button>
               </div>
             </li>
