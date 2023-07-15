@@ -1,21 +1,29 @@
 .cart {
-    background: #000;
+    background: #cbcbcb60;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0px 16px 0px rgba(0, 0, 0, .2);
     display: none;
     padding: 32px;
+    padding-top: 40px;
     position: fixed;
     right: 0px;
     top: 0px;
-    width: 200px;
+    width: 240px;
+    overflow-y: scroll;
 }
 
 .cart img {
-    aspect-ratio: 16/9;
-    width: 100%;
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .cart li {
-    border-bottom: 1px solid #444;
-    padding-bottom: 16px;
+    padding: 0.5rem;
+    background-color: #dee0e070;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 
 .cart footer {
@@ -31,19 +39,19 @@
 
 .cart-button {
     align-items: center;
-    background: #09f;
-    border-radius: 9999px;
+    background: #c93838;
+    border-radius: 20px;
     cursor: pointer;
     display: flex;
     height: 32px;
     justify-content: center;
     padding: 4px;
-    position: absolute;
-    right: 8px;
+    position: fixed;
+    right: 24px;
     top: 8px;
     transition: all .3s ease;
-    width: 32px;
-    z-index: 9999;
+    width: 90px;
+    z-index: 10;
 }
 
 .cart-button:hover {
@@ -53,4 +61,10 @@
 .cart-button~input:checked~.cart {
     height: 100%;
     display: block;
+}
+
+.clear {
+    background-color: #b3b3b3;
+    margin: 10px;
+    margin-bottom: 36px;
 }

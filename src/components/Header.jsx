@@ -1,11 +1,16 @@
 import React from 'react'
 import Filters from './Filters'
+import './Header.css'
 
-export default function Header () {
+export const Header = () => {
   return (
-    <header>
-      <h1>React Shop 🛒</h1>
-      <Filters />
-    </header>
+    <>
+      <header className='topHeader'>
+        <h1>React Shop 🛒</h1>
+      </header>
+      <header className='filterHeader'>
+        <Filters />
+      </header>
+    </>
   )
 }
