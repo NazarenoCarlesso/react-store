@@ -1,4 +1,4 @@
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 import { Header } from './components/Header'
 import { Products } from './components/Products'
 // import { products as initialProducts } from './mocks/products.json'
@@ -17,7 +17,7 @@ export const App = () => {
       <Header />
       <Cart />
       <Products products={filteredProducts} />
-      {/* {IS_DEVELOPMENT && <Footer />} */}
+      <Footer />
     </CartProvider>
   )
 }

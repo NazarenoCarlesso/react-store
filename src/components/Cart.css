@@ -39,7 +39,7 @@
 
 .cart-button {
     align-items: center;
-    background: #c93838;
+    background: #9e2222;
     border-radius: 20px;
     cursor: pointer;
     display: flex;
@@ -52,6 +52,7 @@
     transition: all .3s ease;
     width: 90px;
     z-index: 10;
+    color: #dbdbdb;
 }
 
 .cart-button:hover {

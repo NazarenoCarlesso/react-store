@@ -114,6 +114,36 @@
       "price": 34300,
       "brand": "WRANGLER",
       "image": "https://wranglerjeans.com.ar/wp-content/uploads/2022/09/JCH2705-1-600x720.jpg"
+    },
+    {
+      "id": 17,
+      "title": "JEAN LUKE LEE®",
+      "price": 34300,
+      "brand": "LEE",
+      "image": "https://leejeans.ar/wp-content/uploads/2023/04/L501500U-5-600x720.jpg"
+    },
+    {
+      "id": 18,
+      "title": "JEAN MALONE LEE®",
+      "price": 34300,
+      "brand": "LEE",
+      "image": "https://leejeans.ar/wp-content/uploads/2023/03/L502000U-2-600x720.jpg"
+    },
+    {
+      "id": 19,
+      "title": "JEAN SALVER LEE®",
+      "price": 34300,
+      "brand": "LEE",
+      "image": "https://leejeans.ar/wp-content/uploads/2022/09/JCH5650-600x720.jpg",
+      "discount": 30
+    },
+    {
+      "id": 20,
+      "title": "JEAN PARKOUR LEE®",
+      "price": 34300,
+      "brand": "LEE",
+      "image": "https://leejeans.ar/wp-content/uploads/2022/09/JCH5342-600x720.jpg",
+      "discount": 30
     }
   ]
 }

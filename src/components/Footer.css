@@ -1,13 +1,10 @@
 .footer {
-    position: fixed;
-    left: 16px;
-    bottom: 16px;
     text-align: left;
-    background: rgba(0, 0, 0, .7);
+    background: #c9c9c9;
     padding: 8px 24px;
-    border-radius: 32px;
-    opacity: 0.95;
-    backdrop-filter: blur(8px);
+    font-family: 'Mate SC';
+    border-top: 1px solid;
+    border-color: #b8b8b8;
 }
 
 .footer span {

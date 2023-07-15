@@ -6,7 +6,7 @@ export default function Filters () {
   const { filters, setFilters } = useFilters()
 
   const minPriceFilterId = useId()
-  const categoryFilterId = useId()
+  const brandFilterId = useId()
 
   const handleChangeMinPrice = (event) => {
     setFilters(filters => ({
@@ -15,10 +15,17 @@ export default function Filters () {
     }))
   }
 
-  const handleChangeCategory = (event) => {
+  // const handleChangeCategory = (event) => {
+  //   setFilters(filters => ({
+  //     ...filters,
+  //     category: event.target.value
+  //   }))
+  // }
+
+  const handleChangeBrand = (event) => {
     setFilters(filters => ({
       ...filters,
-      category: event.target.value
+      brand: event.target.value
     }))
   }
 
@@ -29,21 +36,23 @@ export default function Filters () {
         <input
           type='range'
           id={minPriceFilterId}
-          min='0'
-          max='1000'
+          min='22000'
+          max='34000'
+          value={filters.minPrice}
           onChange={handleChangeMinPrice}
         />
         <span>${filters.minPrice}</span>
       </div>
       <div>
-        <label htmlFor={categoryFilterId}>Categoría</label>
+        <label htmlFor={brandFilterId}>Marca</label>
         <select
-          id={categoryFilterId}
-          onChange={handleChangeCategory}
+          id={brandFilterId}
+          onChange={handleChangeBrand}
         >
           <option value='all'>Todas</option>
-          <option value='laptops'>Portátiles</option>
-          <option value='smartphones'>Celulares</option>
+          <option value="LEVI'S">Levi's</option>
+          <option value='WRANGLER'>Wrangler</option>
+          <option value='LEE'>Lee</option>
         </select>
       </div>
     </section>
