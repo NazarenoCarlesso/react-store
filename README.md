@@ -22,4 +22,8 @@ Haz uso de useContext para evitar pasar props innecesarias.
 
 ## Screenshots
 
-![jeans](screenshots/jeans.png)
+![top](screenshots/top.png)
+
+![carro](screenshots/carro.png)
+
+![footer](screenshots/footer.png)
